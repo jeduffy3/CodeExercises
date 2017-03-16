@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+	<div>
+		<h2 align="center">Krazy Fish</h2>
+		<hr/>
+		<table border="0" width="25%">
+			<tr>
+				<td><a href="KrazyFishHP.html">Home</a></td>
+				<td><a href="KrazyFishMenu.html">Menu</a></td>
+				<td><a href="KrazyFishContact.html">Contact Us</a></td>
+			</tr>
+		</table>
+		<hr/>
+	</div>
+	<div>
+		<br/>
+		<form action="fakepage.html" method="POST">
+			<table border="0" width="70%">
+				<tr>
+					<td align="right">Name:</td>
+					<td><input type="text" name="name"/></td>
+				</tr>
+				<tr>
+					<td align="right">Email:</td>
+					<td><input type="text" name="email"/></td>
+				</tr>
+				<tr>
+					<td align="right">Phone:</td>
+					<td><input type="text" name="phone"/></td>
+				</tr>
+				<tr>
+					<td align="right">Reason for Inquiry:</td>
+					<td>
+						<select name="inquiry">
+							<option value="catering">Catering</option>
+							<option value="privateParty">Private Party</option>
+							<option value="feedback">Feedback</option>
+							<option value="other">Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">Additional Information:</td>
+					<td><textarea name="information"></textarea></td>
+				</tr>
+				<tr>
+					<td align="right">Have you been to the restaurant?</td>
+					<td>
+						<input type="radio" name="attendedRestaurant" value="no" checked/>No
+						<input type="radio" name="attendedRestaurant" value="yes"/>Yes
+					</td>
+				</tr>
+				<tr>
+					<td align="right">Best days to contact you:</td>
+					<td>
+						<input type="checkbox" name="contactDays" value="monday"/>M
+						<input type="checkbox" name="contactDays" value="tuesday"/>T
+						<input type="checkbox" name="contactDays" value="wednesday"/>W
+						<input type="checkbox" name="contactDays" value="thursday"/>T
+						<input type="checkbox" name="contactDays" value="friday"/>F
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td align="center"><input type="submit" value="Send Request"/></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div align="center">
+		<hr/>
+		<p>
+			Central Ave, Charlotte, NC, 28205
+		</p>
+		<p>
+			999-999-9999
+		</p>
+	</div>
+</body>
+</html>
