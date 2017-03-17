@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link 	href="albumStyles.css"
+				rel="stylesheet"
+				type="text/css" />
 		<title>DMB Page</title>
 		<style>
-			td	{
-				text-align: center;
-				}
+			#bandMembers{
+			margin-left: 100px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			}
+			#memberTitle{
+			margin-bottom: 10px;
+			}
 		</style>
 	</head>
 	<body>
-		<div align="center">
+		<div class="center">
+			<br/>
 			<img src="https://fanart.tv/fanart/music/07e748f1-075e-428d-85dc-ce3be434e906/albumcover/everyday-5330264cd3c99.jpg"
 				 alt="Everyday Album by Dave Matthews Band"
-				 style="width: 200px;"/>
-			<h2>Everyday</h2>
-			<h3><a href="http://www.davematthewsband.com/">Dave Matthews Band</a></h3>
-			<h4>February 21, 2001</h4>
+				 style="width: 225px;"/>
+			<h2 style="margin-bottom: 0px;">Everyday</h2>
+			<h3 style="margin-top: 0px; margin-bottom: 0px;"><a href="http://www.davematthewsband.com/">Dave Matthews Band</a></h3>
+			<h4 style="margin-top: 0px;">February 21, 2001</h4>
 			<hr>
-			<h3>Band Members and Producers</h3>
+			<h3 id="memberTitle">Band Members and Producers</h3>
 		</div>
-		<ul>
+		<ul id="bandMembers">
 			<li>Dave Matthews - guitar</li>
 			<li>Time Reynolds - guitar</li>
 			<li>Member Three - drums</li>
 			<li>Producer</li>
 		</ul>
-		<table border="1" width="80%" cellspacing="0">
-			<caption><h3>Tracks</h3></caption>
+		<table>
+			<caption><h3 style="margin-top: 0px;">Tracks</h3></caption>
 			<!-- Using the in-line style to change background of the first row in the table -->
-			<tr style="background-color: grey;">
+			<tr style="background-color: DarkGrey;">
 				<th id="firstCell">Track #</th>
 				<th id="secondCell">Track Title</th>
 				<th id="thirdCell">Track Length</th>
