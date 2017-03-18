@@ -1,0 +1,12 @@
+.header	{
+	text-align: center;
+}
+table.header	{
+	border: 0px;
+	width: 500px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.footer	{
+	text-align: center;
+}

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link 	href="krazyFishStyles.css"
+			rel="stylesheet"
+			type="text/css" />
 	<title>Contact Us</title>
 </head>
 <body>
-	<div>
-		<h2 align="center">Krazy Fish</h2>
+	<div class="header">
+		<h2>Krazy Fish</h2>
 		<hr/>
-		<table border="0" width="25%">
+		<table class="header">
 			<tr>
 				<td><a href="KrazyFishHP.html">Home</a></td>
 				<td><a href="KrazyFishMenu.html">Menu</a></td>
@@ -22,20 +25,27 @@
 			<table border="0" width="70%">
 				<tr>
 					<td align="right">Name:</td>
-					<td><input type="text" name="name"/></td>
+					<td><input 	type="text" 
+								name="name"
+								style="width: 175px;"/></td>
 				</tr>
 				<tr>
 					<td align="right">Email:</td>
-					<td><input type="text" name="email"/></td>
+					<td><input 	type="text" 
+								name="email"
+								style="width: 175px;"/></td>
 				</tr>
 				<tr>
 					<td align="right">Phone:</td>
-					<td><input type="text" name="phone"/></td>
+					<td><input 	type="text" 
+								name="phone"
+								style="width: 175px;"/></td>
 				</tr>
 				<tr>
 					<td align="right">Reason for Inquiry:</td>
 					<td>
-						<select name="inquiry">
+						<select name="inquiry"
+								style="width: 175px;">
 							<option value="catering">Catering</option>
 							<option value="privateParty">Private Party</option>
 							<option value="feedback">Feedback</option>
@@ -44,8 +54,10 @@
 					</td>
 				</tr>
 				<tr>
-					<td align="right">Additional Information:</td>
-					<td><textarea name="information"></textarea></td>
+					<td align="right"
+						style="vertical-align: top;">Additional Information:</td>
+					<td><textarea 	name="information"
+									style="width: 175px; height: 85px;"></textarea></td>
 				</tr>
 				<tr>
 					<td align="right">Have you been to the restaurant?</td>
@@ -66,12 +78,15 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td align="center"><input type="submit" value="Send Request"/></td>
+					<td style="text-align: center;">
+						<input 	type="submit" 
+								value="Send Request"/>	
+					</td>
 				</tr>
 			</table>
 		</form>
 	</div>
-	<div align="center">
+	<div class="footer">
 		<hr/>
 		<p>
 			Central Ave, Charlotte, NC, 28205
