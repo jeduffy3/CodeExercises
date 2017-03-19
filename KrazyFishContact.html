@@ -4,11 +4,17 @@
 	<link 	href="krazyFishStyles.css"
 			rel="stylesheet"
 			type="text/css" />
+	<style>
+		#labelName	{
+		text-align: right;
+		font-weight: bold;
+		}
+	</style>
 	<title>Contact Us</title>
 </head>
 <body>
 	<div class="header">
-		<h2>Krazy Fish</h2>
+		<h2 class="header">Krazy Fish</h2>
 		<hr/>
 		<table class="header">
 			<tr>
@@ -24,25 +30,25 @@
 		<form action="fakepage.html" method="POST">
 			<table border="0" width="70%">
 				<tr>
-					<td align="right">Name:</td>
+					<td id="labelName">Name:</td>
 					<td><input 	type="text" 
 								name="name"
 								style="width: 175px;"/></td>
 				</tr>
 				<tr>
-					<td align="right">Email:</td>
+					<td id="labelName">Email:</td>
 					<td><input 	type="text" 
 								name="email"
 								style="width: 175px;"/></td>
 				</tr>
 				<tr>
-					<td align="right">Phone:</td>
+					<td id="labelName">Phone:</td>
 					<td><input 	type="text" 
 								name="phone"
 								style="width: 175px;"/></td>
 				</tr>
 				<tr>
-					<td align="right">Reason for Inquiry:</td>
+					<td id="labelName">Reason for Inquiry:</td>
 					<td>
 						<select name="inquiry"
 								style="width: 175px;">
@@ -54,20 +60,20 @@
 					</td>
 				</tr>
 				<tr>
-					<td align="right"
+					<td id="labelName"
 						style="vertical-align: top;">Additional Information:</td>
 					<td><textarea 	name="information"
 									style="width: 175px; height: 85px;"></textarea></td>
 				</tr>
 				<tr>
-					<td align="right">Have you been to the restaurant?</td>
+					<td id="labelName">Have you been to the restaurant?</td>
 					<td>
 						<input type="radio" name="attendedRestaurant" value="no" checked/>No
 						<input type="radio" name="attendedRestaurant" value="yes"/>Yes
 					</td>
 				</tr>
 				<tr>
-					<td align="right">Best days to contact you:</td>
+					<td id="labelName">Best days to contact you:</td>
 					<td>
 						<input type="checkbox" name="contactDays" value="monday"/>M
 						<input type="checkbox" name="contactDays" value="tuesday"/>T
