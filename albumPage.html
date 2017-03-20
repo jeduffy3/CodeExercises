@@ -6,6 +6,13 @@
 				type="text/css" />
 		<title>DMB Page</title>
 		<style>
+			a	{
+			text-decoration: none;
+			}
+			a:hover	{
+			text-decoration: underline;
+			background-color: aqua;
+			}
 			#bandMembers{
 			font-style: italic;
 			margin-left: 100px;
@@ -15,6 +22,10 @@
 			#memberTitle{
 			font-family: 'Elephant';
 			margin-bottom: 10px;
+			}
+			tbody	{
+			font-style: italic;
+			background-color: skyblue;
 			}
 		</style>
 	</head>
@@ -41,26 +52,30 @@
 		<table>
 			<caption><h3 style="margin-top: 0px;">Tracks</h3></caption>
 			<!-- Using the in-line style to change background of the first row in the table -->
-			<tr style="background-color: DarkGrey;">
-				<th id="firstCell">Track #</th>
-				<th id="secondCell">Track Title</th>
-				<th id="thirdCell">Track Length</th>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>Everyday</td>
-				<td>3:24</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Ants Marching</td>
-				<td>2:54</td>
-			</tr>
-			<tr>
-				<td width="10%">3</td>
-				<td width="30%">Crash</td>
-				<td width="60%">3:04</td>
-			</tr>
+			<thead>
+				<tr style="background-color: DarkGrey;">
+					<th id="firstCell">Track #</th>
+					<th id="secondCell">Track Title</th>
+					<th id="thirdCell">Track Length</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Everyday</td>
+					<td>3:24</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Ants Marching</td>
+					<td>2:54</td>
+				</tr>
+				<tr>
+					<td width="10%">3</td>
+					<td width="30%">Crash</td>
+					<td width="60%">3:04</td>
+				</tr>
+			</tbody>
 		</table>
 	</body>
 </html>
