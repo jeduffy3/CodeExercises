@@ -13,3 +13,18 @@ table.header	{
 h2.header	{
 	font-family: 'Elephant';
 }
+a	{
+	color: seagreen;
+}
+a:link	{
+	color: seagreen;
+}
+a:visited	{
+	color: red;
+}
+a:hover	{
+	font-weight: bold;
+}
+a:active	{
+	text-decoration: none;
+}
