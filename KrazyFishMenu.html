@@ -4,6 +4,12 @@
 	<link 	href="krazyFishStyles.css"
 			rel="stylesheet"
 			type="text/css" />
+	<link	href="bootstrap-3.3.7-dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			type="text/css" />
+	<link	href="bootstrap-3.3.7-dist/js/bootstrap.min.js"
+			rel="stylesheet"
+			type="text/css" />
 	<style>
 		#itemHeader	{
 		font-size: 15pt;
@@ -18,16 +24,15 @@
 	<title>Menu</title>
 </head>
 <body>
+<div class="container-fluid">
 	<div class="header">
 		<h2 class="header">Krazy Fish</h2>
 		<hr/>
-		<table class="header">
-			<tr>
-				<td><a href="KrazyFishHP.html">Home</a></td>
-				<td><a href="KrazyFishMenu.html">Menu</a></td>
-				<td><a href="KrazyFishContact.html">Contact Us</a></td>
-			</tr>
-		</table>
+		<ul class="text-left nav nav-pills">
+			<li><a href="KrazyFishHP.html">Home</a></li>
+			<li class="active"><a href="KrazyFishMenu.html">Menu</a></li>
+			<li><a href="KrazyFishContact.html">Contact Us</a></li>
+		</ul>
 		<hr/>
 	</div>
 	<div>
@@ -136,5 +141,6 @@
 			999-999-9999
 		</p>
 	</div>
+</div>
 </body>
 </html>
